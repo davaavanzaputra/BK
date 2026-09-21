@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#121829" />
+  <meta name="description" content="Panduan interaktif untuk memahami people pleasing dan personal boundaries secara aman, realistis, dan ramah remaja." />
+  <title>Ruang Aman — People Pleasing & Personal Boundaries</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="progress-track" aria-hidden="true"><div id="readingProgress"></div></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Ruang Aman, kembali ke beranda">
+      <span class="brand-mark" aria-hidden="true">◎</span>
+      <span>
+        <strong>RUANG AMAN</strong>
+        <small>people pleasing × boundaries</small>
+      </span>
+    </a>
+    <nav class="nav" aria-label="Navigasi utama">
+      <a href="#kenali">Kenali</a>
+      <a href="#boundaries">Boundaries</a>
+      <a href="#latihan">Latihan</a>
+      <a href="#referensi">Referensi</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn" id="themeToggle" type="button" aria-label="Ubah tema" title="Ubah tema">☾</button>
+      <button class="menu-btn" id="menuToggle" type="button" aria-expanded="false" aria-controls="mobileNav">☰</button>
+    </div>
+  </header>
+
+  <div class="mobile-nav" id="mobileNav" hidden>
+    <a href="#kenali">Kenali</a>
+    <a href="#boundaries">Boundaries</a>
+    <a href="#latihan">Latihan</a>
+    <a href="#referensi">Referensi</a>
+  </div>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="hero-copy reveal">
+        <span class="eyebrow">Baca. Rasakan. Pilih dengan sadar.</span>
+        <h1>Baik hati <em>tanpa</em> harus selalu berkata “iya”.</h1>
+        <p class="hero-lead">People pleasing bukan sekadar “terlalu baik”. Personal boundaries juga bukan berarti egois. Keduanya tentang bagaimana kita mengenali kebutuhan, pilihan, batas, dan rasa aman dalam hubungan.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#kenali">Mulai eksplorasi <span>↗</span></a>
+          <button class="btn btn-ghost" type="button" data-scroll="#latihan">Coba latihan 3 menit</button>
+        </div>
+        <div class="hero-facts" aria-label="Tiga pengingat utama">
+          <div><b>01</b><span>Kebaikan ≠ kewajiban</span></div>
+          <div><b>02</b><span>“Tidak” tetap bisa sopan</span></div>
+          <div><b>03</b><span>Batas perlu dikomunikasikan</span></div>
+        </div>
+      </div>
+
+      <div class="hero-art reveal" aria-label="Ilustrasi seseorang menjaga ruang pribadinya">
+        <div class="orb orb-a"></div>
+        <div class="orb orb-b"></div>
+        <div class="halo"></div>
+        <svg class="hero-svg" viewBox="0 0 480 480" role="img" aria-hidden="true">
+          <defs>
+            <linearGradient id="blob" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#a8f0df"/>
+              <stop offset="1" stop-color="#7f8cff"/>
+            </linearGradient>
+          </defs>
+          <path d="M80 290c8-105 76-202 182-216 81-11 140 39 141 102 1 49-33 55-42 108-12 68-63 111-139 111-93 0-150-32-142-105z" fill="url(#blob)" opacity=".95"/>
+          <circle cx="268" cy="198" r="76" fill="#f7f8ff" opacity=".96"/>
+          <path d="M199 198c18-28 51-48 84-44 28 4 42 18 60 41-11-7-26-14-41-14-31 0-61 20-75 45-10-5-18-14-28-28z" fill="#121829" opacity=".18"/>
+          <circle cx="243" cy="208" r="7" fill="#121829"/>
+          <circle cx="293" cy="208" r="7" fill="#121829"/>
+          <path d="M250 239c16 9 31 9 46 0" fill="none" stroke="#121829" stroke-width="6" stroke-linecap="round"/>
+          <path d="M163 337c22-38 53-55 87-55 34 0 66 17 91 55" fill="none" stroke="#121829" stroke-width="30" stroke-linecap="round"/>
+          <circle cx="265" cy="287" r="13" fill="#121829"/>
+          <path d="M334 130l51-18" stroke="#f7f8ff" stroke-width="12" stroke-linecap="round"/>
+          <path d="M357 111l28 3-16 22" fill="none" stroke="#f7f8ff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <div class="floating-note note-one">“Aku boleh memilih.”</div>
+        <div class="floating-note note-two">space = aman</div>
+        <div class="floating-pill">SELF-RESPECT<br/><span>not selfish</span></div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Kalimat pengingat">
+      <div>YOU CAN CARE <span>+</span> YOU CAN SAY NO</div>
+      <div>COMMUNICATE <span>+</span> CONSENT <span>+</span> RESPECT</div>
+      <div>GOOD RELATIONSHIPS NEED SPACE</div>
+    </section>
+
+    <section class="section intro-grid" id="kenali">
+      <div class="section-heading reveal">
+        <span class="eyebrow">01 — Kenali fenomenanya</span>
+        <h2>People pleasing itu ketika “iya” terasa lebih aman daripada “tidak”.</h2>
+        <p>Dalam bahasa sehari-hari, <strong>people pleasing</strong> menggambarkan pola terlalu sering menomorsatukan kebutuhan atau persetujuan orang lain sampai kebutuhan diri sendiri terabaikan. Melakukan sesuatu untuk membantu orang lain sesekali adalah hal normal; yang perlu diperhatikan adalah polanya dan dampaknya.</p>
+      </div>
+      <div class="info-card big reveal">
+        <div class="card-icon">✦</div>
+        <h3>Yang perlu dibedakan</h3>
+        <div class="compare-row"><span class="label good">Sehat</span><p>“Aku mau membantu karena aku memilihnya.”</p></div>
+        <div class="compare-row"><span class="label warn">Waspada</span><p>“Aku sebenarnya tidak sanggup, tapi takut mengecewakan.”</p></div>
+        <div class="compare-row"><span class="label alert">Berisiko</span><p>“Aku terus mengiyakan sampai kelelahan, kesal, atau merasa kehilangan diri sendiri.”</p></div>
+        <small>Perilaku seseorang bisa berada di tengah-tengah; konteks dan frekuensi tetap penting.</small>
+      </div>
+    </section>
+
+    <section class="section cards-section">
+      <div class="section-heading compact reveal">
+        <span class="eyebrow">Tanda yang sering muncul</span>
+        <h2>Cek polanya, bukan memberi label pada diri sendiri.</h2>
+      </div>
+      <div class="card-grid four">
+        <article class="info-card reveal"><div class="card-icon">✓</div><h3>Sulit menolak</h3><p>Sering mengatakan “iya” walau waktu, tenaga, atau kemampuan sedang tidak cukup.</p></article>
+        <article class="info-card reveal"><div class="card-icon">◌</div><h3>Takut konflik</h3><p>Menghindari percakapan tidak nyaman karena khawatir hubungan berubah atau orang marah.</p></article>
+        <article class="info-card reveal"><div class="card-icon">↯</div><h3>Butuh persetujuan</h3><p>Menggantungkan rasa “aku sudah benar” pada respons atau penilaian orang lain.</p></article>
+        <article class="info-card reveal"><div class="card-icon">≈</div><h3>Resentment</h3><p>Setelah terlalu banyak memberi, bisa muncul lelah, frustrasi, atau kesal yang menumpuk.</p></article>
+      </div>
+    </section>
+
+    <section class="section split-feature">
+      <div class="feature-visual reveal" aria-hidden="true">
+        <div class="stress-ring ring-1"></div><div class="stress-ring ring-2"></div><div class="stress-ring ring-3"></div>
+        <div class="feature-center"><span>NO</span><small>is a complete<br>sentence.</small></div>
+      </div>
+      <div class="feature-copy reveal">
+        <span class="eyebrow">Kenapa bisa terjadi?</span>
+        <h2>Akar perilaku bisa berbeda pada tiap orang.</h2>
+        <p>People pleasing dapat berkaitan dengan banyak hal, misalnya kesulitan bersikap asertif, kebiasaan menghindari konflik, harga diri yang rendah, kebutuhan kuat untuk diterima, atau pengalaman hidup yang mengajarkan bahwa menjaga damai lebih aman daripada mengungkapkan kebutuhan.</p>
+        <div class="mini-accordion">
+          <button class="accordion-btn" aria-expanded="false">“Aku takut mengecewakan orang.” <span>＋</span></button>
+          <div class="accordion-panel"><p>Kecewa dan marahnya orang lain adalah emosi yang mereka kelola. Kita tetap bertanggung jawab menyampaikan pilihan dengan hormat.</p></div>
+          <button class="accordion-btn" aria-expanded="false">“Kalau aku punya batas, berarti aku egois.” <span>＋</span></button>
+          <div class="accordion-panel"><p>Batas bukan alat untuk mengontrol orang lain. Batas adalah cara menjelaskan apa yang bersedia kita lakukan dan apa yang tidak.</p></div>
+          <button class="accordion-btn" aria-expanded="false">“Aku harus selalu menjelaskan alasanku.” <span>＋</span></button>
+          <div class="accordion-panel"><p>Penjelasan singkat bisa membantu, tetapi kita tidak selalu perlu membuat pembelaan panjang agar sebuah batas dianggap valid.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section boundary-section" id="boundaries">
+      <div class="section-heading reveal">
+        <span class="eyebrow">02 — Personal boundaries</span>
+        <h2>Boundary = batas yang membantu hubungan terasa aman dan saling menghormati.</h2>
+        <p>Boundary bisa terkait tubuh, waktu, tenaga, privasi, komunikasi, benda, ruang digital, sampai topik yang ingin atau tidak ingin dibicarakan.</p>
+      </div>
+      <div class="boundary-map reveal" aria-label="Jenis personal boundaries">
+        <div class="boundary-core">AKU<br><small>punya hak atas<br>pilihan & ruangku</small></div>
+        <button class="boundary-node node-a" data-boundary="Fisik">Fisik<span>tubuh & ruang</span></button>
+        <button class="boundary-node node-b" data-boundary="Waktu">Waktu<span>jadwal & energi</span></button>
+        <button class="boundary-node node-c" data-boundary="Emosi">Emosi<span>perasaan & tanggung jawab</span></button>
+        <button class="boundary-node node-d" data-boundary="Digital">Digital<span>chat, foto, akun</span></button>
+        <button class="boundary-node node-e" data-boundary="Privasi">Privasi<span>data & cerita pribadi</span></button>
+      </div>
+      <div class="boundary-detail" id="boundaryDetail" aria-live="polite">
+        <strong>Pilih satu lingkaran.</strong> Klik kategori di atas untuk melihat contoh batas yang sehat dan kalimat yang bisa digunakan.
+      </div>
+    </section>
+
+    <section class="section spectrum-section">
+      <div class="section-heading compact reveal">
+        <span class="eyebrow">Batas tidak harus keras</span>
+        <h2>Asertif ada di antara pasif dan agresif.</h2>
+      </div>
+      <div class="spectrum reveal">
+        <div class="spectrum-label"><strong>Pasif</strong><span>kebutuhan diri menghilang</span></div>
+        <div class="spectrum-bar"><i style="left: 16%"></i><i style="left: 50%"></i><i style="left: 84%"></i></div>
+        <div class="spectrum-label center"><strong>Asertif</strong><span>jelas + hormat + konsisten</span></div>
+        <div class="spectrum-label right"><strong>Agresif</strong><span>mengabaikan hak orang lain</span></div>
+      </div>
+      <div class="assertive-formula reveal"><span>AKU</span><b>+</b><span>BUTUH</span><b>+</b><span>BATASKU</span><b>+</b><span>PILIHAN</span></div>
+    </section>
+
+    <section class="section scripts-section">
+      <div class="section-heading reveal">
+        <span class="eyebrow">Kalimat siap pakai</span>
+        <h2>Boundary script: jelas, singkat, tidak perlu drama.</h2>
+      </div>
+      <div class="script-grid">
+        <article class="script-card reveal"><span class="script-tag">Waktu</span><p>“Aku belum bisa hari ini. Aku butuh waktu untuk istirahat.”</p><button class="copy-btn" data-copy="Aku belum bisa hari ini. Aku butuh waktu untuk istirahat.">Salin kalimat</button></article>
+        <article class="script-card reveal"><span class="script-tag">Permintaan</span><p>“Terima kasih sudah percaya. Aku tidak bisa mengambil tugas itu sekarang.”</p><button class="copy-btn" data-copy="Terima kasih sudah percaya. Aku tidak bisa mengambil tugas itu sekarang.">Salin kalimat</button></article>
+        <article class="script-card reveal"><span class="script-tag">Privasi</span><p>“Aku belum nyaman cerita soal itu. Tolong hormati batas privasiku.”</p><button class="copy-btn" data-copy="Aku belum nyaman cerita soal itu. Tolong hormati batas privasiku.">Salin kalimat</button></article>
+        <article class="script-card reveal"><span class="script-tag">Digital</span><p>“Aku tidak ingin fotoku dibagikan. Tolong hapus dan jangan unggah lagi.”</p><button class="copy-btn" data-copy="Aku tidak ingin fotoku dibagikan. Tolong hapus dan jangan unggah lagi.">Salin kalimat</button></article>
+      </div>
+    </section>
+
+    <section class="section interactive-section" id="latihan">
+      <div class="section-heading reveal">
+        <span class="eyebrow">03 — Latihan interaktif</span>
+        <h2>Eksperimen kecil untuk mengenali pola.</h2>
+        <p>Hasil di bawah bukan diagnosis atau tes klinis. Gunakan sebagai bahan refleksi, lalu perhatikan pola dari waktu ke waktu.</p>
+      </div>
+
+      <div class="interactive-grid">
+        <article class="tool-card quiz-card reveal">
+          <div class="tool-top"><span class="tool-num">A</span><span>self-check</span></div>
+          <h3>Seberapa sering kamu mengiyakan demi menghindari konflik?</h3>
+          <p class="tool-help">Pilih jawaban yang paling sering menggambarkan dirimu dalam beberapa minggu terakhir.</p>
+          <div id="quiz" class="quiz"></div>
+          <div class="quiz-footer"><span id="quizCount">0 / 6</span><button class="btn btn-small" id="nextQuestion">Mulai</button></div>
+          <div id="quizResult" class="result-box" hidden></div>
+        </article>
+
+        <article class="tool-card scenario-card reveal">
+          <div class="tool-top"><span class="tool-num">B</span><span>scenario lab</span></div>
+          <h3>Latih respons yang tetap tegas tanpa merendahkan.</h3>
+          <div class="scenario" id="scenarioBox">
+            <p id="scenarioPrompt">Teman meminta kamu mengerjakan bagian tugasnya malam ini, padahal tugasmu sendiri belum selesai.</p>
+            <div class="scenario-options">
+              <button data-scenario="A">“Iya deh, nanti aku kerjakan.”</button>
+              <button data-scenario="B">“Aku nggak mau bantu. Urusanmu sendiri.”</button>
+              <button data-scenario="C">“Aku belum bisa mengerjakannya untukmu. Aku bisa bantu menjelaskan bagian yang belum kamu pahami.”</button>
+            </div>
+            <div class="scenario-feedback" id="scenarioFeedback" aria-live="polite"></div>
+          </div>
+        </article>
+
+        <article class="tool-card builder-card reveal">
+          <div class="tool-top"><span class="tool-num">C</span><span>boundary builder</span></div>
+          <h3>Susun kalimat batasmu sendiri.</h3>
+          <label for="situation">Situasinya</label>
+          <select id="situation">
+            <option value="time">Aku sedang kewalahan dan diminta ikut kegiatan.</option>
+            <option value="chat">Aku tidak ingin selalu membalas chat dengan cepat.</option>
+            <option value="privacy">Orang lain meminta cerita pribadi yang belum siap kubagi.</option>
+            <option value="work">Teman meminta aku menyelesaikan bagiannya.</option>
+          </select>
+          <label for="tone">Gaya kalimat</label>
+          <select id="tone">
+            <option value="calm">Tenang & sopan</option>
+            <option value="firm">Tegas & singkat</option>
+            <option value="warm">Hangat & suportif</option>
+          </select>
+          <button class="btn btn-primary full" id="buildBoundary">Buat contoh kalimat</button>
+          <div class="generated" id="generatedText" aria-live="polite">Contoh kalimat akan muncul di sini.</div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section myth-section">
+      <div class="section-heading compact reveal">
+        <span class="eyebrow">Myth or reality?</span>
+        <h2>Geser kartu untuk membongkar miskonsepsi.</h2>
+      </div>
+      <div class="myth-grid">
+        <button class="myth-card reveal" type="button"><span class="myth-front">“Menetapkan batas berarti jahat.”</span><span class="myth-back"><b>Tidak.</b> Batas menyampaikan apa yang bersedia kamu lakukan dan apa yang tidak.</span></button>
+        <button class="myth-card reveal" type="button"><span class="myth-front">“Orang lain harus setuju dengan batasku.”</span><span class="myth-back"><b>Tidak selalu.</b> Orang lain boleh kecewa; kamu tetap bisa menyampaikan batas dengan hormat.</span></button>
+        <button class="myth-card reveal" type="button"><span class="myth-front">“Kalau membantu, itu selalu people pleasing.”</span><span class="myth-back"><b>Bukan begitu.</b> Membantu dengan sukarela adalah bagian normal dari hubungan. Pola dan dampak lebih penting.</span></button>
+        <button class="myth-card reveal" type="button"><span class="myth-front">“Boundary adalah cara mengontrol orang.”</span><span class="myth-back"><b>Boundary berfokus pada tindakanmu.</b> Kamu menjelaskan respons atau pilihanmu saat sebuah batas tidak dihormati.</span></button>
+      </div>
+    </section>
+
+    <section class="section checkin-section">
+      <div class="checkin-card reveal">
+        <div>
+          <span class="eyebrow">Mini check-in</span>
+          <h2>“Apa yang sebenarnya aku butuhkan hari ini?”</h2>
+          <p>Pilih satu. Tidak perlu menjelaskannya kepada siapa pun.</p>
+        </div>
+        <div class="need-grid" id="needGrid">
+          <button data-need="istirahat">🫧 Istirahat</button>
+          <button data-need="ruang">🌿 Ruang pribadi</button>
+          <button data-need="dukungan">🤝 Dukungan</button>
+          <button data-need="kejelasan">🧭 Kejelasan</button>
+          <button data-need="waktu">⏳ Waktu</button>
+          <button data-need="aman">🛡️ Rasa aman</button>
+        </div>
+        <div class="checkin-result" id="checkinResult" aria-live="polite">Belum memilih kebutuhan.</div>
+      </div>
+    </section>
+
+    <section class="section safety-section">
+      <div class="safety-card reveal">
+        <div class="safety-icon">♡</div>
+        <div>
+          <span class="eyebrow">Catatan penting</span>
+          <h2>Boundary sehat tetap punya konteks.</h2>
+          <p>Dalam situasi yang melibatkan ancaman, tekanan, pemaksaan, pelecehan, atau rasa tidak aman, fokus utama bukan “menjadi lebih tegas” sendirian. Cari dukungan dari orang dewasa yang tepercaya, guru/konselor sekolah, keluarga, atau profesional yang dapat membantu membuatmu lebih aman.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section references" id="referensi">
+      <div class="section-heading compact reveal">
+        <span class="eyebrow">04 — Referensi belajar</span>
+        <h2>Baca lebih jauh dari sumber kesehatan & psikologi.</h2>
+      </div>
+      <div class="reference-grid reveal">
+        <a href="https://health.clevelandclinic.org/how-to-stop-being-a-people-pleaser" target="_blank" rel="noopener">Cleveland Clinic — Signs You’re a People-Pleaser & How To Stop <span>↗</span></a>
+        <a href="https://dictionary.apa.org/boundary" target="_blank" rel="noopener">APA Dictionary of Psychology — Boundary <span>↗</span></a>
+        <a href="https://dictionary.apa.org/bubble-concept-of-personal-space" target="_blank" rel="noopener">APA Dictionary — Bubble Concept of Personal Space <span>↗</span></a>
+        <a href="https://dictionary.apa.org/group-pressure" target="_blank" rel="noopener">APA Dictionary — Group Pressure <span>↗</span></a>
+      </div>
+      <p class="source-note">Konten dirancang sebagai materi edukasi umum dan tidak menggantikan penilaian profesional kesehatan mental.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div><strong>RUANG AMAN</strong><span>Tempat untuk belajar mengatakan “iya” karena mau, bukan karena takut.</span></div>
+    <button class="back-top" type="button" data-scroll="#top">↑ Kembali ke atas</button>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
