@@ -67,7 +67,7 @@
   // Boundary cards
   const boundaryDetail = $('#boundaryDetail');
   const boundaryData = {
-    Fisik: '<strong>Fisik:</strong> menyangkut sentuhan, jarak tubuh, atau ruang personal. <br><br><b>Contoh:</b> “Aku belum nyaman dipeluk. Cukup lambaikan tangan, ya.”',
+    Fisik: '<strong>Fisik:</strong> menyangkut sentuhan, jarak tubuh, atau ruang personal. <br><br><b>Contoh:</b> “Aku menghargai niat baikmu, tapi aku lebih nyaman kalau kita cukup saling menyapa dengan lambaian tangan.”',
     Waktu: '<strong>Waktu:</strong> menyangkut jadwal, energi, dan kapan kamu tersedia. <br><br><b>Contoh:</b> “Aku baru bisa membalas malam hari setelah selesai belajar.”',
     Emosi: '<strong>Emosi:</strong> kamu boleh peduli tanpa mengambil tanggung jawab penuh atas perasaan orang lain. <br><br><b>Contoh:</b> “Aku mau mendengarkan, tapi aku belum bisa menyelesaikan masalah ini untukmu.”',
     Digital: '<strong>Digital:</strong> menyangkut chat, notifikasi, foto, username, akun, dan kebiasaan online. <br><br><b>Contoh:</b> “Aku tidak selalu online, jadi mungkin balasanku tidak cepat.”',
